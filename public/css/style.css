@@ -1,0 +1,124 @@
+
+body {
+    font-family: "Plus Jakarta Sans", sans-serif !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    flex: 1;
+}
+/* navbar styling */
+
+.navbar {
+  height: 4rem;
+  background-color: white;
+}
+
+.fa-compass {
+  color: rgb(231, 97, 48);
+  font-size: 2rem;
+}
+
+.nav-link {
+  color: black !important;
+}
+
+/* footer styling */
+
+.f-info-links a {
+  text-decoration: none;
+  color: black;
+}
+
+.f-info-links a:hover {
+  text-decoration: underline;
+}
+
+.f-info {
+  height: 5rem;
+  background-color: antiquewhite;
+}
+
+.f-info-socials,
+.f-info-brand,
+.f-info-links {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.f-info-socials i{
+    margin: 4px;
+    font-size: 1.2rem;
+}
+
+.f-info-brand{
+    vertical-align: center;
+}
+
+
+
+/* cards styling*/
+
+.listing-card {
+    border: none !important;
+    margin-bottom: 2rem;
+}
+
+.card-img-top {
+border-radius: 1rem !important;
+width: 100%;
+object-fit: cover !important;
+}
+
+.card-body {
+    padding: 0 !important;
+}
+
+.card-text p {
+    font-weight: 300 !important;
+}
+
+.listing-link {
+    text-decoration: none;
+}
+
+/* card effects */
+
+.card-img-overlay {
+    opacity: 0;
+}
+
+.card-img-overlay {
+    opacity: 0.2;
+    background-color: white;
+}
+
+
+/* show page */
+
+.show-img {
+  height: 30vh;
+}
+
+
+
+.edit-btn a{
+  text-decoration: none;
+  color: white;
+}
+
+.show-btns {
+  display: flex;
+}
+
+.edit-btn {
+  background-color: rgb(6, 128, 73) !important;
+}
+
+.delete-btn {
+  background-color: rgb(37, 31, 31) !important;
+}
